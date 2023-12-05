@@ -1,1 +1,0 @@
-DELETE FROM produtos WHERE tipo = 'Brinquedo';

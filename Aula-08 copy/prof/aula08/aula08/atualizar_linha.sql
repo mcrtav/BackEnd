@@ -1,1 +1,0 @@
-UPDATE produtos SET preco = 60.00, nome = 'Outro livro' WHERE nome = 'Harry Potter';
