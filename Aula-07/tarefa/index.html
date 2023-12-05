@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA-07 - Tarefas </title>
+    <link rel="stylesheet" href="./css/tarefa.css">
+    <link rel="shortcut icon" href="./ico/favicon.ico" type="image/x-icon">
+    <!-- <script defer src="js/tarefa.js"></script> -->
+
+</head>
+
+<body>
+    <div id="tarefas">
+        <h2 id="h_select">Selecione a opção desejada</h2>
+        <select id="select01">
+            <option value="0" selected>Tarefas</option>
+            <option value="1">Tarefa 1</option>
+            <option value="2">Tarefa 2</option>
+            <option value="3">Tarefa 3</option>
+        </select>
+
+        <div id="taf00" class="tarefa">
+            <h1>TAREFAS</h1>
+        </div>
+        <div id="taf01" class="tarefa">
+            <h2>Tarefa 01</h2>
+            <p>Desenvolver um programa que espera a idade da pessoa como dado de entrada. Exibir a mensagem "é maior de
+                idade quando for maior que 18 anos". Exibir a mensagem "é menor de idade quando for menor que 18 anos"
+            </p>
+            <label for="idade">Qual é a sua Idade ?</label>
+            <input type="text" name="" id="idade01" placeholder="Idade">
+            <button id="btn01">Status</button>
+            <p id="resposta01">?</p>
+        </div>
+        <div id="taf02" class="tarefa">
+            <h2>Tarefa 02</h2>
+            <p>Desenvolver um programa que espera 2 números na entrada. O programa deve somar os números no final
+            </p>
+            <div id="tab_hor">
+                <div class="tab">
+                    <label for="num1">1ª Numero:</label>
+                    <input type="text" name="" id="num1" placeholder="N1">
+                </div>
+                <div class="tab">
+                    <label for="num2">2º Numero:</label>
+                    <input type="text" name="" id="num2" placeholder="N2">
+                </div>
+            </div>
+            <button id="btn02">Soma</button>
+            <p id="resposta02">?</p>
+        </div>
+        <div id="taf03" class="tarefa">
+            <h2>Tarefa 03</h2>
+            <p>Desenvolver um programa que espera 2 números na entrada. O programa vai perguntar qual operação será
+                realizada com esses números (divisão, subtração, multiplicação etc). Irá dar a resposta da operação
+                selecionada
+
+            </p>
+            <div id="tab_hor">
+                <div class="tab">
+                    <label for="n3">1º Numero:</label>
+                    <input type="text" name="" id="n3" placeholder="N1">
+                </div>
+                <div class="tab">
+                    <label for="n4">2º Numero:</label>
+                    <input type="text" name="" id="n4" placeholder="N2">
+                </div>
+            </div>
+            <button id="btn03">Calcular</button>
+            <p id="resposta03">?</p>
+        </div>
+
+        <!-- <label for="meuSelect">Escolha uma opção:</label>
+        <select id="meuSelect">
+            <option value="opcao1">Opção 1</option>
+            <option value="opcao2">Opção 2</option>
+            <option value="opcao3">Opção 3</option>
+        </select>
+
+        <p id="resultado"></p>
+
+        <script>
+            // Seleciona o elemento select
+            var selectElement = document.getElementById('meuSelect');
+
+            // Adiciona um ouvinte de evento para o evento change
+            selectElement.addEventListener('change', function () {
+                // Obtém o valor selecionado
+                var selectedValue = selectElement.value;
+
+                // Atualiza o conteúdo do parágrafo com o valor selecionado
+                document.getElementById('resultado').innerText = 'Opção selecionada: ' + selectedValue;
+            });
+        </script> -->
+
+
+
+
+    </div>
+
+
+
+
+    <script src="./js/tarefa.js"></script>
+
+
+</body>
+
+</html>
