@@ -1,0 +1,4 @@
+- Criar uma tabela chamada produtos
+  - Com os campos nome, tipo (livro, alimento), preco
+- Inserir na tabela, pelo menos, 3 itens
+- Vão consultar esses itens
